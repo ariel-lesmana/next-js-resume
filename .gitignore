@@ -43,3 +43,5 @@ next-env.d.ts
 .idea
 
 resume-project/.idea/
+# Local Netlify folder
+.netlify
