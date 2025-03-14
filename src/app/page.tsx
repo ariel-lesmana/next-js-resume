@@ -74,78 +74,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Skills Section */}
-        <section id="skills" className="py-32 bg-gradient-to-br from-[#1A1F3C] via-[#0A0F1C] to-[#1A1F3C]">
-          <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold mb-16 text-center gradient-text">Technical Skills</h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <div className="glass-card p-8 rounded-2xl skill-card">
-                <h3 className="text-2xl font-bold mb-6 text-cyan-400">AI & Deep Learning</h3>
-                <ul className="space-y-4 text-cyan-50">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
-                    CNN Architecture
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
-                    Computer Vision
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
-                    TensorFlow & PyTorch
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-cyan-400"></div>
-                    Machine Learning Pipelines
-                  </li>
-                </ul>
-              </div>
-              <div className="glass-card p-8 rounded-2xl skill-card">
-                <h3 className="text-2xl font-bold mb-6 text-blue-400">Software Development</h3>
-                <ul className="space-y-4 text-cyan-50">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-blue-400"></div>
-                    Spring Boot
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-blue-400"></div>
-                    React
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-blue-400"></div>
-                    AWS Services
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-blue-400"></div>
-                    MariaDB, MongoDB, PostgreSQL
-                  </li>
-                </ul>
-              </div>
-              <div className="glass-card p-8 rounded-2xl skill-card">
-                <h3 className="text-2xl font-bold mb-6 text-indigo-400">Testing & Tools</h3>
-                <ul className="space-y-4 text-cyan-50">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-indigo-400"></div>
-                    AWS Academy Certified
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-indigo-400"></div>
-                    Jest
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-indigo-400"></div>
-                    Selenium
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-indigo-400"></div>
-                    Cucumber
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Portfolio Section */}
         <section id="portfolio" className="py-32 bg-gradient-to-br from-[#0A0F1C] via-[#1A1F3C] to-[#0A0F1C]">
           <div className="container mx-auto px-6">
@@ -166,7 +94,7 @@ export default function Home() {
                     Real-time movement tracking and correction using advanced CNN models for accurate fitness guidance.
                   </p>
                   <a href="https://pypi.org/project/kelpie-personal-trainer/" className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors">
-                    View Portofolio <ExternalLink size={16} />
+                    View Project <ExternalLink size={16} />
                   </a>
                 </div>
               </div>
@@ -184,25 +112,40 @@ export default function Home() {
                   <p className="text-cyan-100 mb-6">
                     E-commerce inventory management system using ARIMA modeling for accurate stock predictions.
                   </p>
-
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
+              <div className="glass-card rounded-2xl overflow-hidden project-card">
+                <div className="relative">
+                  <img
+                      src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1851&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="ERP System Development"
+                      className="w-full h-64 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0A0F1C] to-transparent"></div>
+                </div>
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold mb-4 text-white">ERP System Development</h3>
+                  <p className="text-cyan-100 mb-6">
+                    Comprehensive ERP solution with features for automated testing using Cucumber and Spring Boot.
+                  </p>
+                </div>
+              </div>
 
-        {/* Career Goals Section */}
-        <section id="goals" className="py-32 bg-gradient-to-br from-[#1A1F3C] via-[#0A0F1C] to-[#1A1F3C]">
-          <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold mb-16 text-center gradient-text">Career Goals</h2>
-            <div className="max-w-3xl mx-auto">
-              <div className="glass-card rounded-2xl p-12 text-center">
-                <p className="text-2xl text-cyan-50 leading-relaxed">
-                  Driven to excel as a Machine Learning Engineer,
-                  with a focus on advancing expertise in AI and contributing to cutting-edge projects.
-                  Committed to achieving financial growth and stability while embracing the flexibility
-                  and collaboration of remote work environments.
-                </p>
+              <div className="glass-card rounded-2xl overflow-hidden project-card">
+                <div className="relative">
+                  <img
+                      src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="AWS Integration Project"
+                      className="w-full h-64 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0A0F1C] to-transparent"></div>
+                </div>
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold mb-4 text-white">AWS Cloud Integration</h3>
+                  <p className="text-cyan-100 mb-6">
+                    Implemented robust cloud solutions utilizing AWS services including ECS, S3, and Pipelines.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
