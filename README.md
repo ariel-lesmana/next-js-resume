@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ariel Pratama Lesmana's Portfolio Website
 
-## Getting Started
+This repository contains the code for Ariel Pratama Lesmana's personal portfolio website. The website showcases his skills, experience, and projects as a Software Engineer and AI/Machine Learning Specialist.
 
-First, run the development server:
+[My Resume](https://curious-kitsune-a93dc5.netlify.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Interactive Header:**
+    - Animated intro with a dynamic gradient background.
+    - Floating icons and professional introduction.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **About Section:**
+    - Highlights Ariel's educational background and professional experience.
+    - Showcases key projects with concise descriptions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Skills Section:**
+    - Displays technical skills categorized into AI & Deep Learning, Software Development, and Testing & Tools.
 
-## Learn More
+- **Portfolio Section:**
+    - Featured projects with images, descriptions, and links.
 
-To learn more about Next.js, take a look at the following resources:
+- **Career Goals:**
+    - Outlines Ariel's career aspirations and professional motivations.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Contact Section:**
+    - Dedicated section for reaching out to Ariel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- **Frontend Framework:** React.js
+- **UI Framework:** Tailwind CSS
+- **Icons:** Lucide-react
+- **Animations:** Tailwind animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/portfolio-website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open the website in your browser at `http://localhost:3000`.
+
+## How to Use
+
+1. Update the `src` folder with your own content, images, and links.
+2. Customize the `contact` component for your preferred contact form or details.
+3. Deploy the website to your preferred hosting platform (e.g., Vercel, Netlify).
+
+## Deployment
+
+To deploy the site:
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Deploy the contents of the `dist` folder to your hosting provider.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the license terms.
+
+---
+
+**Connect with Ariel Pratama Lesmana:**
+- LinkedIn: [Profile](https://www.linkedin.com/in/arielpratama)
+- Email: ariel@example.com
