@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(135deg, #00c6ff, #0072ff, #6c00ff);
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+}
+
+.glass-card {
+  @apply backdrop-blur-lg bg-white/10 shadow-xl border border-white/10;
+}
+
+.skill-card {
+  @apply transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-white/15;
+}
+
+.project-card {
+  @apply transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-white/15;
+}
+
+.contact-icon {
+  @apply transform transition-all duration-300 hover:scale-125 hover:text-cyan-400;
+}
