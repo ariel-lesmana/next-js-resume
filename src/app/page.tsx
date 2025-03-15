@@ -48,8 +48,8 @@ export default function Home() {
             <div className="max-w-4xl mx-auto">
               <div className="glass-card rounded-2xl p-8 mb-12">
                 <p className="text-xl text-cyan-50 leading-relaxed">
-                  As a graduate in Informatics with a stellar 3.84 GPA, I've focused my expertise on Computer Vision and Deep Learning.
-                  Currently working as a Software Developer at Etherval IT Consultancy, I've developed a strong foundation in
+                  As a graduate in Informatics with a stellar 3.84 GPA, I&#39;ve focused my expertise on Computer Vision and Deep Learning.
+                  Currently working as a Software Engineer at Etherval IT Consultancy, I&#39;ve developed a strong foundation in
                   remote collaboration and innovative problem-solving.
                 </p>
               </div>
